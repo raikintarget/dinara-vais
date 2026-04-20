@@ -20,163 +20,373 @@ fbq('track', 'PageView');
 src="https://www.facebook.com/tr?id=1673835563964859&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
-<title>2026 жылы Сатудың Құпия Стратегиясы</title>
-<meta name="description" content="2026 жылы сатудың құпия стратегиясы. Жеке бренд, масштабтау, команда басқару, контент стратегия, воронка, запуск.">
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Onest:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<title>Қазақша Блог Құрылтай — Блог | Бизнес | Сату Стратегиясы</title>
+<meta name="description" content="Қазақша блог құрылтай — Блог | Бизнес | Сату Стратегиясы. DinarVais. Астана, Алматы, Қарағанды, Түркістан, Шымкент. 2026 жылы рекорд продажа жасауға дайын бол!">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700;800&family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet">
 <style>
   :root{
-    --bg:#0a0a0a;
-    --bg-2:#141414;
-    --ink:#f5f0e6;
-    --ink-dim:#a8a198;
-    --gold:#e8c57a;
-    --gold-bright:#ffd87a;
-    --gold-deep:#b8924a;
-    --line:rgba(232,197,122,.18);
+    --bg:#07162b;
+    --bg-2:#0b2340;
+    --teal:#0d4f5c;
+    --teal-light:#1a7a7a;
+    --ink:#ffffff;
+    --ink-dim:rgba(255,255,255,.7);
+    --yellow:#FFD700;
+    --yellow-bright:#FFE033;
+    --yellow-dark:#E6B800;
+    --line:rgba(255,215,0,.2);
+    --card-bg:rgba(10,30,60,.7);
   }
   *{box-sizing:border-box;margin:0;padding:0}
-  html,body{background:var(--bg);color:var(--ink);font-family:'Onest',sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility;overflow-x:hidden;font-feature-settings:"kern","liga","calt"}
-  h1,h2,h3{font-feature-settings:"kern","liga","ss01"}
+  html,body{
+    background:var(--bg);
+    background-image:linear-gradient(180deg,#07162b 0%,#0b2d3d 30%,#0d4a50 60%,#0a3040 100%);
+    background-attachment:fixed;
+    color:var(--ink);
+    font-family:'Montserrat',sans-serif;
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  /* Kazakh ornament background pattern */
   body::before{
-    content:"";position:fixed;inset:0;pointer-events:none;z-index:1;
-    background:
-      radial-gradient(circle at 20% 10%, rgba(232,197,122,.08), transparent 50%),
-      radial-gradient(circle at 85% 80%, rgba(232,197,122,.05), transparent 55%);
+    content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
+    background-image:
+      radial-gradient(circle at 10% 20%, rgba(13,79,92,.5) 0%, transparent 40%),
+      radial-gradient(circle at 90% 80%, rgba(13,79,92,.4) 0%, transparent 40%),
+      radial-gradient(circle at 50% 50%, rgba(255,215,0,.03) 0%, transparent 60%);
   }
+  /* SVG ornament sides */
   body::after{
-    content:"";position:fixed;inset:0;pointer-events:none;z-index:2;opacity:.035;
-    background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    content:"";position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:0;
+    background-image:
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60'%3E%3Ccircle cx='30' cy='30' r='2' fill='rgba(255,215,0,0.06)'/%3E%3Cpath d='M10,10 Q30,0 50,10 Q60,30 50,50 Q30,60 10,50 Q0,30 10,10Z' fill='none' stroke='rgba(255,215,0,0.04)' stroke-width='1'/%3E%3C/svg%3E");
+    background-size:60px 60px;
   }
-  .wrap{position:relative;z-index:3;max-width:1200px;margin:0 auto;padding:28px 28px 80px}
+  .wrap{position:relative;z-index:2;max-width:1200px;margin:0 auto;padding:28px 28px 80px}
 
-  /* Top */
-  .top{display:flex;justify-content:space-between;align-items:center;padding-bottom:40px;border-bottom:1px solid var(--line)}
-  .brand{font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:18px;letter-spacing:-.01em}
-  .brand span{color:var(--gold)}
-  .top-meta{font-size:12px;color:var(--ink-dim);letter-spacing:.15em;text-transform:uppercase}
-  .top-meta b{color:var(--gold)}
+  /* ─── TOP ─── */
+  .top{display:flex;justify-content:space-between;align-items:center;padding-bottom:32px;border-bottom:2px solid var(--line)}
+  .brand{font-family:'Oswald',sans-serif;font-weight:700;font-size:22px;letter-spacing:.05em;text-transform:uppercase;color:var(--yellow)}
+  .brand span{color:rgba(255,255,255,.5)}
+  .top-meta{font-family:'Montserrat',sans-serif;font-size:12px;color:var(--ink-dim);letter-spacing:.15em;text-transform:uppercase}
+  .top-meta b{color:var(--yellow)}
 
-  /* Hero */
-  .hero{padding:70px 0 60px;position:relative;text-align:center}
-  .free-badge{
-    display:inline-flex;align-items:center;gap:12px;
-    padding:12px 26px;border-radius:999px;
-    background:linear-gradient(135deg,var(--gold-bright),var(--gold-deep));
-    color:#0a0a0a;font-family:'Bricolage Grotesque',sans-serif;font-weight:700;
-    font-size:13px;letter-spacing:.2em;text-transform:uppercase;
-    box-shadow:0 15px 40px -10px rgba(232,197,122,.4);
-    margin-bottom:36px;
-    animation:pulse 2.5s ease-in-out infinite;
+  /* ─── HERO ─── */
+  .hero{padding:80px 0 60px;position:relative;text-align:center}
+  .hero-kz-label{
+    display:inline-block;
+    font-family:'Oswald',sans-serif;font-weight:500;font-size:14px;
+    letter-spacing:.25em;text-transform:uppercase;color:var(--ink-dim);
+    margin-bottom:24px;
+    padding:8px 24px;border:1px solid var(--line);border-radius:4px;
   }
-  .free-badge::before,.free-badge::after{content:"✦";font-size:11px}
-  @keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.03)}}
-
-  h1{font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:clamp(40px,5.8vw,84px);line-height:.95;letter-spacing:-.04em;margin-bottom:32px;max-width:900px;margin-left:auto;margin-right:auto}
-  h1 .gold{color:var(--gold);font-weight:500;font-style:italic}
-  h1 .year{display:block;font-size:.85em;color:var(--ink-dim);font-weight:400;margin-bottom:6px;letter-spacing:-.02em}
-  h1 .outline{-webkit-text-stroke:1.5px var(--gold);color:transparent;font-weight:700}
-
-  .lead{font-size:18px;line-height:1.55;color:var(--ink-dim);max-width:620px;margin:0 auto 44px}
-  .lead b{color:var(--ink);font-weight:600}
-
-  .cta-row{display:flex;flex-direction:column;align-items:center;gap:18px}
+  h1{
+    font-family:'Oswald',sans-serif;font-weight:700;
+    font-size:clamp(48px,7vw,96px);
+    line-height:.9;letter-spacing:.02em;text-transform:uppercase;
+    margin-bottom:12px;
+  }
+  h1 .pipe{color:rgba(255,255,255,.3);font-weight:400;margin:0 8px}
+  h1 .yellow-line{
+    display:block;color:var(--yellow);
+    font-size:clamp(40px,6vw,80px);
+    letter-spacing:.03em;
+  }
+  h1 .white-line{display:block;color:#fff}
+  h1 .sub-line{
+    display:block;font-size:.55em;color:var(--ink-dim);
+    font-weight:400;letter-spacing:.15em;margin-bottom:16px;
+  }
+  .lead{
+    font-family:'Montserrat',sans-serif;font-size:16px;line-height:1.6;
+    color:var(--ink-dim);max-width:600px;margin:24px auto 44px;
+  }
+  .lead b{color:#fff;font-weight:700}
+  .cta-row{display:flex;flex-direction:column;align-items:center;gap:16px}
   .btn{
-    display:inline-flex;align-items:center;gap:14px;
-    padding:22px 42px;border-radius:999px;
-    background:linear-gradient(135deg,var(--gold-bright),var(--gold-deep));
-    color:#0a0a0a;font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:15px;
-    letter-spacing:.04em;text-transform:uppercase;text-decoration:none;
-    box-shadow:0 20px 50px -15px rgba(232,197,122,.5), inset 0 1px 0 rgba(255,255,255,.4);
-    transition:transform .3s ease, box-shadow .3s ease;
+    display:inline-flex;align-items:center;gap:12px;
+    padding:18px 44px;border-radius:4px;
+    background:var(--yellow);
+    color:#07162b;
+    font-family:'Oswald',sans-serif;font-weight:700;font-size:16px;
+    letter-spacing:.12em;text-transform:uppercase;text-decoration:none;
+    box-shadow:0 8px 30px rgba(255,215,0,.4);
+    transition:transform .25s,box-shadow .25s,background .25s;
   }
-  .btn::after{content:"→";font-size:22px;transition:transform .3s ease}
-  .btn:hover{transform:translateY(-3px);box-shadow:0 25px 60px -15px rgba(232,197,122,.7)}
-  .btn:hover::after{transform:translateX(5px)}
-  .cta-note{font-size:12px;color:var(--ink-dim);letter-spacing:.15em;text-transform:uppercase}
-  .cta-note b{color:var(--gold)}
+  .btn:hover{transform:translateY(-3px);box-shadow:0 14px 40px rgba(255,215,0,.6);background:var(--yellow-bright)}
+  .btn::after{content:"→";font-size:20px}
+  .cta-note{font-size:12px;color:var(--ink-dim);letter-spacing:.12em;text-transform:uppercase}
+  .cta-note b{color:var(--yellow)}
 
-  /* Marquee */
-  .marquee{border-top:1px solid var(--line);border-bottom:1px solid var(--line);overflow:hidden;padding:22px 0;margin:40px 0 80px}
-  .marquee-inner{display:flex;gap:60px;white-space:nowrap;animation:scroll 35s linear infinite;font-family:'Bricolage Grotesque',sans-serif;font-weight:600;font-size:15px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink)}
-  .marquee-inner span{display:inline-flex;align-items:center;gap:60px}
-  .marquee-inner span::after{content:"✦";color:var(--gold)}
+  /* ─── MARQUEE ─── */
+  .marquee{
+    border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+    overflow:hidden;padding:18px 0;margin:50px 0 70px;
+    background:rgba(0,0,0,.2);
+  }
+  .marquee-inner{
+    display:flex;gap:50px;white-space:nowrap;
+    animation:scroll 30s linear infinite;
+    font-family:'Oswald',sans-serif;font-weight:600;font-size:15px;
+    letter-spacing:.12em;text-transform:uppercase;color:var(--yellow);
+  }
+  .marquee-inner span{display:inline-flex;align-items:center;gap:50px}
+  .marquee-inner span::after{content:"✦";color:rgba(255,215,0,.4);font-size:10px}
   @keyframes scroll{to{transform:translateX(-50%)}}
 
-  /* Section */
-  .section-num{font-family:'Bricolage Grotesque',sans-serif;font-size:12px;color:var(--gold);letter-spacing:.25em;margin-bottom:18px;display:block;text-transform:uppercase;font-weight:600}
-  .section-title{font-family:'Bricolage Grotesque',sans-serif;font-weight:600;font-size:clamp(30px,3.8vw,48px);line-height:1.05;letter-spacing:-.03em;margin-bottom:50px;max-width:820px}
-  .section-title .gold{color:var(--gold);font-style:italic;font-weight:500}
+  /* ─── SECTION COMMON ─── */
+  .section-num{
+    font-family:'Oswald',sans-serif;font-size:12px;color:var(--yellow);
+    letter-spacing:.3em;margin-bottom:16px;display:block;
+    text-transform:uppercase;font-weight:500;
+  }
+  .section-title{
+    font-family:'Oswald',sans-serif;font-weight:700;
+    font-size:clamp(28px,3.5vw,46px);
+    line-height:1.0;letter-spacing:.03em;text-transform:uppercase;
+    margin-bottom:40px;color:#fff;
+  }
+  .section-title .yellow{color:var(--yellow)}
 
-  /* Program */
-  .program{padding:40px 0 90px}
-  .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  /* ─── PROGRAM ─── */
+  .program{padding:30px 0 80px;border-top:1px solid var(--line)}
+  .cards{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
   .card{
-    padding:36px 28px 32px;border:1px solid var(--line);border-radius:6px;
-    background:linear-gradient(180deg,rgba(232,197,122,.025),transparent);
-    transition:transform .4s ease, border-color .4s ease, background .4s ease;
+    padding:28px 22px 24px;
+    border:1px solid rgba(255,215,0,.15);
+    border-radius:4px;
+    background:rgba(7,22,43,.8);
+    backdrop-filter:blur(10px);
+    transition:transform .3s,border-color .3s,background .3s;
     position:relative;overflow:hidden;
   }
   .card::before{
-    content:"";position:absolute;top:0;left:0;width:40px;height:1px;background:var(--gold);
-    transition:width .4s ease;
+    content:"";position:absolute;top:0;left:0;right:0;height:2px;
+    background:linear-gradient(90deg,var(--yellow),transparent);
+    transform:scaleX(0);transform-origin:left;
+    transition:transform .3s;
   }
-  .card:hover{transform:translateY(-6px);border-color:rgba(232,197,122,.4);background:linear-gradient(180deg,rgba(232,197,122,.05),transparent)}
-  .card:hover::before{width:100%}
-  .card .n{font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:40px;color:var(--gold);opacity:.4;margin-bottom:18px;display:block;line-height:1;letter-spacing:-.02em}
-  .card h3{font-family:'Bricolage Grotesque',sans-serif;font-weight:600;font-size:19px;letter-spacing:-.015em;margin-bottom:14px;line-height:1.25}
-  .card p{color:var(--ink-dim);font-size:14.5px;line-height:1.6}
+  .card:hover{transform:translateY(-5px);border-color:rgba(255,215,0,.4);background:rgba(13,79,92,.5)}
+  .card:hover::before{transform:scaleX(1)}
+  .card .n{
+    font-family:'Oswald',sans-serif;font-weight:700;font-size:36px;
+    color:var(--yellow);opacity:.3;margin-bottom:14px;display:block;line-height:1;
+  }
+  .card h3{
+    font-family:'Oswald',sans-serif;font-weight:600;font-size:16px;
+    letter-spacing:.03em;text-transform:uppercase;
+    margin-bottom:10px;line-height:1.3;color:#fff;
+  }
+  .card p{color:var(--ink-dim);font-size:13px;line-height:1.6}
 
-  /* Speaker */
-  .speaker{display:grid;grid-template-columns:.85fr 1.15fr;gap:60px;align-items:center;padding:60px 0 90px}
-  .speaker-img{aspect-ratio:9/16;border-radius:4px;overflow:hidden;position:relative;box-shadow:0 40px 80px -20px rgba(0,0,0,.8), 0 0 0 1px var(--line)}
+  /* ─── SPEAKER ─── */
+  .speaker{display:grid;grid-template-columns:.85fr 1.15fr;gap:60px;align-items:center;padding:60px 0 80px;border-top:1px solid var(--line)}
+  .speaker-img{aspect-ratio:9/16;border-radius:4px;overflow:hidden;position:relative;
+    box-shadow:0 30px 60px -10px rgba(0,0,0,.8), 0 0 0 2px rgba(255,215,0,.2)}
   .speaker-img img{width:100%;height:100%;object-fit:cover;display:block}
-  .speaker-img::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 60%,rgba(10,10,10,.7));pointer-events:none}
-  .speaker-info .eyebrow{display:inline-flex;align-items:center;gap:12px;font-size:12px;letter-spacing:.25em;text-transform:uppercase;color:var(--gold);margin-bottom:20px;font-weight:600}
-  .speaker-info .eyebrow::before{content:"";width:36px;height:1px;background:var(--gold)}
-  .speaker-info h2{font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:clamp(32px,4.2vw,56px);line-height:1;letter-spacing:-.035em;margin-bottom:20px}
-  .speaker-info .role{color:var(--gold);font-size:13px;letter-spacing:.18em;text-transform:uppercase;margin-bottom:28px;font-weight:600}
-  .speaker-info p{color:var(--ink-dim);font-size:16px;line-height:1.7;margin-bottom:18px;max-width:540px}
-  .speaker-info p b{color:var(--ink);font-weight:600}
-  .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:36px;max-width:540px}
-  .stat{border-top:1px solid var(--line);padding-top:16px}
-  .stat b{display:block;font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:30px;color:var(--gold);line-height:1;letter-spacing:-.02em}
-  .stat span{font-size:11px;color:var(--ink-dim);letter-spacing:.1em;text-transform:uppercase;margin-top:6px;display:block}
+  .speaker-img::after{content:"";position:absolute;inset:0;
+    background:linear-gradient(180deg,transparent 50%,rgba(7,22,43,.9));pointer-events:none}
+  .speaker-info .eyebrow{
+    display:inline-flex;align-items:center;gap:12px;
+    font-family:'Oswald',sans-serif;font-size:12px;letter-spacing:.3em;
+    text-transform:uppercase;color:var(--yellow);margin-bottom:16px;font-weight:500;
+  }
+  .speaker-info .eyebrow::before{content:"";width:30px;height:2px;background:var(--yellow)}
+  .speaker-info h2{
+    font-family:'Dancing Script',cursive;font-weight:700;
+    font-size:clamp(40px,5vw,64px);line-height:1;
+    color:var(--yellow);margin-bottom:14px;
+  }
+  .speaker-info .role{
+    color:rgba(255,255,255,.6);font-size:12px;letter-spacing:.2em;
+    text-transform:uppercase;margin-bottom:24px;font-weight:600;
+  }
+  .speaker-info p{color:var(--ink-dim);font-size:15px;line-height:1.7;margin-bottom:14px;max-width:500px}
+  .speaker-info p b{color:#fff;font-weight:700}
+  .stats{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:28px;max-width:400px}
+  .stat{
+    border:1px solid var(--line);border-radius:4px;padding:16px;
+    background:rgba(0,0,0,.3);
+  }
+  .stat b{
+    display:block;font-family:'Oswald',sans-serif;font-weight:700;
+    font-size:28px;color:var(--yellow);line-height:1;
+  }
+  .stat span{font-size:11px;color:var(--ink-dim);letter-spacing:.1em;text-transform:uppercase;margin-top:4px;display:block}
 
-  /* Final CTA */
-  .final{text-align:center;padding:100px 20px 60px;position:relative;border-top:1px solid var(--line);margin-top:40px}
+  /* ─── FOR WHOM ─── */
+  .for-whom{padding:30px 0 80px;border-top:1px solid var(--line)}
+  .for-whom-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:10px}
+  .for-whom-item{
+    display:flex;align-items:flex-start;gap:12px;padding:16px 18px;
+    border:1px solid rgba(255,215,0,.12);border-radius:4px;
+    background:rgba(7,22,43,.7);transition:border-color .25s,background .25s;
+  }
+  .for-whom-item:hover{border-color:rgba(255,215,0,.35);background:rgba(13,79,92,.4)}
+  .for-whom-item::before{content:"✦";color:var(--yellow);font-size:11px;flex-shrink:0;margin-top:3px}
+  .for-whom-item span{font-size:14px;line-height:1.5;color:var(--ink-dim)}
+  .for-whom-item span b{color:#fff;font-weight:700}
+
+  /* ─── PRICING ─── */
+  .pricing{padding:30px 0 80px;border-top:1px solid var(--line)}
+  .price-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:10px}
+  .price-card{
+    padding:36px 28px;border:1px solid rgba(255,215,0,.15);border-radius:4px;
+    text-align:center;background:rgba(7,22,43,.8);
+    transition:transform .3s,border-color .3s;
+  }
+  .price-card:hover{transform:translateY(-5px);border-color:rgba(255,215,0,.4)}
+  .price-card.featured{
+    border-color:rgba(255,215,0,.5);
+    background:rgba(13,79,92,.5);
+    position:relative;
+  }
+  .price-card.featured::before{
+    content:"ХИТ";position:absolute;top:-12px;left:50%;transform:translateX(-50%);
+    background:var(--yellow);color:#07162b;
+    font-family:'Oswald',sans-serif;font-weight:700;font-size:11px;
+    letter-spacing:.15em;padding:4px 16px;border-radius:2px;
+  }
+  .price-card .tier{
+    font-family:'Oswald',sans-serif;font-weight:700;font-size:14px;
+    letter-spacing:.2em;text-transform:uppercase;color:var(--yellow);margin-bottom:16px;display:block;
+  }
+  .price-card .price-old{font-size:20px;color:rgba(255,255,255,.35);text-decoration:line-through;margin-bottom:4px;display:block;font-family:'Oswald',sans-serif}
+  .price-card .price-now{
+    font-family:'Oswald',sans-serif;font-weight:700;font-size:52px;
+    color:#fff;line-height:1;letter-spacing:-.01em;margin-bottom:4px;display:block;
+  }
+  .price-card.featured .price-now{color:var(--yellow)}
+  .price-card.online .price-now{color:var(--yellow);font-size:52px}
+  .price-card .price-now .currency{font-size:20px;vertical-align:super;font-weight:500}
+  .price-card .price-label{font-size:11px;color:var(--ink-dim);letter-spacing:.12em;text-transform:uppercase}
+  .price-card .price-desc{margin-top:18px;font-size:13px;color:var(--ink-dim);line-height:1.6;border-top:1px solid var(--line);padding-top:16px}
+
+  /* ─── SCHEDULE ─── */
+  .schedule{padding:30px 0 80px;border-top:1px solid var(--line)}
+  .city-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:10px}
+  .city-card{
+    padding:24px 22px;border:1px solid rgba(255,215,0,.12);border-radius:4px;
+    background:rgba(7,22,43,.8);transition:transform .3s,border-color .3s;
+    position:relative;overflow:hidden;
+  }
+  .city-card::after{
+    content:"";position:absolute;bottom:0;left:0;right:0;height:2px;
+    background:linear-gradient(90deg,transparent,var(--yellow),transparent);
+    transform:scaleX(0);transition:transform .3s;
+  }
+  .city-card:hover{transform:translateY(-4px);border-color:rgba(255,215,0,.35)}
+  .city-card:hover::after{transform:scaleX(1)}
+  .city-card .city-name{
+    font-family:'Oswald',sans-serif;font-weight:700;font-size:22px;
+    letter-spacing:.05em;text-transform:uppercase;
+    color:var(--yellow);margin-bottom:8px;
+  }
+  .city-card .city-date{
+    font-family:'Oswald',sans-serif;font-weight:600;font-size:18px;
+    color:#fff;margin-bottom:6px;letter-spacing:.03em;
+  }
+  .city-card .city-time{font-size:12.5px;color:var(--ink-dim);margin-bottom:6px}
+  .city-card .city-addr{
+    font-size:12px;color:var(--ink-dim);line-height:1.5;
+    border-top:1px solid rgba(255,215,0,.1);padding-top:10px;margin-top:8px;
+  }
+  .city-card.online-card{
+    border-color:rgba(255,215,0,.35);
+    background:linear-gradient(135deg,rgba(13,79,92,.6),rgba(7,22,43,.8));
+  }
+  .city-card.online-card .city-name{color:var(--yellow-bright)}
+
+  /* ─── INCLUDES ─── */
+  .includes{padding:30px 0 80px;border-top:1px solid var(--line)}
+  .includes-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;margin-top:10px}
+  .includes-list{list-style:none;display:flex;flex-direction:column;gap:12px}
+  .includes-list li{
+    display:flex;align-items:center;gap:14px;
+    font-size:15px;color:var(--ink-dim);
+    padding:14px 18px;border:1px solid rgba(255,215,0,.1);border-radius:4px;
+    background:rgba(7,22,43,.6);
+  }
+  .includes-list li::before{content:"—";color:var(--yellow);font-weight:700;font-family:'Oswald',sans-serif}
+  .includes-list li b{color:#fff;font-weight:700}
+  .prize-box{
+    padding:36px 28px;
+    border:2px solid rgba(255,215,0,.4);
+    border-radius:4px;
+    background:linear-gradient(135deg,rgba(255,215,0,.1),rgba(13,79,92,.4));
+    text-align:center;
+    position:relative;overflow:hidden;
+  }
+  .prize-box::before{
+    content:"🏆";position:absolute;top:16px;right:20px;font-size:28px;opacity:.4;
+  }
+  .prize-box .prize-val{
+    font-family:'Oswald',sans-serif;font-weight:700;
+    font-size:clamp(32px,4vw,52px);color:var(--yellow);
+    line-height:1;margin-bottom:10px;
+  }
+  .prize-box .prize-title{
+    font-family:'Oswald',sans-serif;font-weight:600;font-size:14px;
+    letter-spacing:.1em;text-transform:uppercase;color:#fff;margin-bottom:12px;
+  }
+  .prize-box .prize-desc{font-size:14px;color:var(--ink-dim);line-height:1.7}
+
+  /* ─── FINAL CTA ─── */
+  .final{
+    text-align:center;padding:100px 20px 60px;position:relative;
+    border-top:1px solid var(--line);margin-top:20px;
+    background:linear-gradient(180deg,transparent,rgba(13,79,92,.2));
+  }
   .final::before{
-    content:"ТЕГІН";position:absolute;top:10px;left:50%;transform:translateX(-50%);
-    font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:clamp(140px,22vw,320px);
-    color:var(--gold);opacity:.05;letter-spacing:-.05em;pointer-events:none;white-space:nowrap;
+    content:"2026";position:absolute;top:10px;left:50%;transform:translateX(-50%);
+    font-family:'Oswald',sans-serif;font-weight:700;
+    font-size:clamp(140px,22vw,320px);
+    color:var(--yellow);opacity:.04;letter-spacing:-.02em;pointer-events:none;white-space:nowrap;
   }
   .final-inner{position:relative;z-index:2}
-  .final h2{font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:clamp(38px,5.2vw,72px);line-height:.98;letter-spacing:-.04em;margin-bottom:24px}
-  .final h2 .gold{color:var(--gold);font-style:italic;font-weight:500}
-  .final p{color:var(--ink-dim);font-size:17px;line-height:1.55;max-width:580px;margin:0 auto 44px}
-  .spots{margin-top:30px;font-size:12px;color:var(--ink-dim);letter-spacing:.15em;text-transform:uppercase}
-  .spots b{color:var(--gold)}
+  .final h2{
+    font-family:'Oswald',sans-serif;font-weight:700;
+    font-size:clamp(32px,5vw,64px);
+    line-height:1;letter-spacing:.03em;text-transform:uppercase;
+    margin-bottom:20px;
+  }
+  .final h2 .yellow{color:var(--yellow)}
+  .final p{color:var(--ink-dim);font-size:16px;line-height:1.6;max-width:560px;margin:0 auto 36px}
+  .final p b{color:#fff}
+  .spots{margin-top:24px;font-size:12px;color:var(--ink-dim);letter-spacing:.15em;text-transform:uppercase}
+  .spots b{color:var(--yellow)}
 
-  /* Footer */
-  footer{text-align:center;padding-top:60px;border-top:1px solid var(--line);margin-top:60px;color:var(--ink-dim);font-size:12px;letter-spacing:.08em}
-  footer b{color:var(--gold);font-family:'Bricolage Grotesque',sans-serif}
+  /* ─── FOOTER ─── */
+  footer{
+    text-align:center;padding-top:50px;border-top:1px solid var(--line);
+    margin-top:40px;color:var(--ink-dim);font-size:12px;letter-spacing:.1em;
+  }
+  footer b{color:var(--yellow);font-family:'Oswald',sans-serif;letter-spacing:.05em}
 
-  /* Reveal */
-  .reveal{opacity:0;transform:translateY(30px);transition:opacity .9s ease, transform .9s ease}
+  /* ─── REVEAL ─── */
+  .reveal{opacity:0;transform:translateY(24px);transition:opacity .8s ease,transform .8s ease}
   .reveal.in{opacity:1;transform:none}
-  .delay-1{transition-delay:.1s}.delay-2{transition-delay:.2s}.delay-3{transition-delay:.3s}.delay-4{transition-delay:.4s}.delay-5{transition-delay:.5s}
+  .delay-1{transition-delay:.1s}.delay-2{transition-delay:.2s}.delay-3{transition-delay:.3s}.delay-4{transition-delay:.4s}
 
-  /* Mobile */
-  @media (max-width:880px){
-    .wrap{padding:20px 20px 60px}
-    .top{flex-direction:column;gap:14px;align-items:flex-start;padding-bottom:28px}
-    .hero{padding:50px 0 40px}
-    .cards{grid-template-columns:1fr;gap:18px}
-    .speaker{grid-template-columns:1fr;gap:36px;padding:30px 0 60px}
-    .speaker-img{max-width:320px;margin:0 auto;width:100%}
-    .marquee{margin:20px 0 50px}
+  /* ─── MOBILE ─── */
+  @media(max-width:900px){
+    .wrap{padding:16px 16px 50px}
+    .top{flex-direction:column;gap:12px;align-items:flex-start;padding-bottom:20px}
+    .hero{padding:48px 0 36px}
+    .cards{grid-template-columns:repeat(2,1fr);gap:12px}
+    .speaker{grid-template-columns:1fr;gap:30px;padding:30px 0 50px}
+    .speaker-img{max-width:300px;margin:0 auto;width:100%}
+    .for-whom-grid{grid-template-columns:1fr}
+    .price-cards{grid-template-columns:1fr;gap:14px}
+    .city-cards{grid-template-columns:1fr;gap:12px}
+    .includes-grid{grid-template-columns:1fr;gap:24px}
+    .stats{grid-template-columns:repeat(2,1fr)}
+    .marquee{margin:28px 0 50px}
     .final{padding:60px 10px 40px}
-    .stats{grid-template-columns:repeat(3,1fr);gap:12px}
-    .stat b{font-size:22px}
+  }
+  @media(max-width:500px){
+    .cards{grid-template-columns:1fr}
+    h1{font-size:clamp(36px,9vw,60px)}
   }
 </style>
 </head>
@@ -186,18 +396,19 @@ src="https://www.facebook.com/tr?id=1673835563964859&ev=PageView&noscript=1"
 
   <div class="top reveal">
     <div class="brand">DINARA<span>/</span>VAIS</div>
-    <div class="top-meta">Тренинг • 2026</div>
+    <div class="top-meta">Блог Құрылтай <b>2026</b></div>
   </div>
 
   <section class="hero">
+    <div class="hero-kz-label reveal">ҚАЗАҚША БЛОГ ҚҰРЫЛТАЙ</div>
     <h1 class="reveal delay-1">
-      <span class="year">2026 жылы</span>
-      Сатудың <span class="gold">құпия</span><br>
-      <span class="outline">стратегиясы</span>
+      <span class="yellow-line">БЛОГ <span class="pipe">|</span> БИЗНЕС</span>
+      <span class="white-line">САТУ СТРАТЕГИЯСЫ</span>
     </h1>
     <p class="lead reveal delay-2">
-      Жеке брендіңді құрып, онлайн/офлайн масштабқа шық. Команданды басқар,
-      жүйелі контент жаса, <b>воронка арқылы запуск</b> жасап — сатуыңды есе арттыр.
+      Жеке брендіңді дамытып, блог арқылы кәсібіңді, табысыңды арттырғың келсе —
+      <b>2026 жылы рекорд продажа жасауға дайын бол!</b> Сатудың стратегиясымен
+      воронкасын үйреніп ал!
     </p>
     <div class="cta-row reveal delay-3">
       <a class="btn" href="https://chat.whatsapp.com/L3kqlAZzFC5CVhDFMDnANa?mode=gi_t" target="_blank" rel="noopener">Тіркелу — WhatsApp</a>
@@ -208,53 +419,65 @@ src="https://www.facebook.com/tr?id=1673835563964859&ev=PageView&noscript=1"
   <div class="marquee reveal">
     <div class="marquee-inner">
       <span>Жеке бренд</span>
-      <span>Масштабтау</span>
-      <span>Команда басқару</span>
-      <span>Контент стратегия</span>
       <span>Воронка</span>
-      <span>Запуск</span>
+      <span>Сату стратегиясы</span>
+      <span>Блог жүргізу</span>
+      <span>Масштабтау</span>
+      <span>Кастдев</span>
+      <span>Мышление</span>
       <span>Жеке бренд</span>
-      <span>Масштабтау</span>
-      <span>Команда басқару</span>
-      <span>Контент стратегия</span>
       <span>Воронка</span>
-      <span>Запуск</span>
+      <span>Сату стратегиясы</span>
+      <span>Блог жүргізу</span>
+      <span>Масштабтау</span>
+      <span>Кастдев</span>
+      <span>Мышление</span>
     </div>
   </div>
 
   <section class="program">
     <span class="section-num reveal">/ Бағдарлама</span>
-    <h2 class="section-title reveal">Тренингте нақты <span class="gold">жүйені</span> аласың — 6 тақырып, нөлден нәтижеге дейін.</h2>
+    <h2 class="section-title reveal">Блог құрылтай <span class="yellow">бағдарламасы</span> — 8 тақырып, нақты нәтижеге дейін.</h2>
     <div class="cards">
       <div class="card reveal delay-1">
         <span class="n">01</span>
-        <h3>Жеке бренд құру</h3>
-        <p>Өзіңді нарықта мықты эксперт ретінде көрсететін брендті нөлден құрудың нақты схемасы.</p>
+        <h3>Блог арқылы табысты есейтетін 3 қадам</h3>
+        <p>Инстаграмда блог жүргізу арқылы табысыңды қалай есейтуге болатынын үйрен.</p>
       </div>
       <div class="card reveal delay-2">
         <span class="n">02</span>
-        <h3>Онлайн / Офлайн масштабтау</h3>
-        <p>Бизнесіңді екі форматта да масштабқа шығарып, табысты есе арттырудың әдістері.</p>
+        <h3>Жеке брендтің маңызы</h3>
+        <p>Өзіңді нарықта мықты эксперт ретінде таныту — жеке брендтің табысқа әсері.</p>
       </div>
       <div class="card reveal delay-3">
         <span class="n">03</span>
-        <h3>Команда басқару</h3>
-        <p>Сенімді команда жинау, делегация жасау және жүйені өзіңсіз жұмыс істететін қалай жасау.</p>
+        <h3>Мышлениемен жұмыс</h3>
+        <p>Табысты кәсіпкердің ойлау жүйесі — тосқауылдарды жою және нәтижеге бағыттау.</p>
       </div>
       <div class="card reveal delay-1">
         <span class="n">04</span>
-        <h3>Жүйелі контент</h3>
-        <p>Аудиторияңа тұрақты пайда беретін, сенімді құратын контент жүйесін құру.</p>
+        <h3>Воронка арқылы 3–5х табыс</h3>
+        <p>Воронка дегін не? Сату воронкасы арқылы қалай 3–5 есе табыс табуға болады.</p>
       </div>
       <div class="card reveal delay-2">
         <span class="n">05</span>
-        <h3>Контент стратегия</h3>
-        <p>Контент артында тұратын нақты стратегия — не жазу, қашан жариялау, қалай өсу.</p>
+        <h3>Кастдев арқылы клиент зерттеу</h3>
+        <p>Эксперт/кәсіпкерлер кастдев арқылы клиенттерін қалай зерттейді — нақты әдістер.</p>
       </div>
       <div class="card reveal delay-3">
         <span class="n">06</span>
-        <h3>Воронка + Запуск</h3>
-        <p>Сату воронкасын құрып, табысты запуск жасаудың толық технологиясы.</p>
+        <h3>Оффлайнда өз қызметіңді сату</h3>
+        <p>Оффлайнда өз қызмет, тауарыңды қалай тиімді сата аласың — стратегия мен тактика.</p>
+      </div>
+      <div class="card reveal delay-1">
+        <span class="n">07</span>
+        <h3>Онлайнға масштабты шығу</h3>
+        <p>Онлайнға қалай масштабты түрде тез шыға аласың — нақты жол картасы.</p>
+      </div>
+      <div class="card reveal delay-2">
+        <span class="n">08</span>
+        <h3>Онлайн / Оффлайн сату стратегиясы</h3>
+        <p>Екі форматтағы сатудың жүйелі стратегиясы — 2026 жылы рекорд нәтижеге қол жеткіз.</p>
       </div>
     </div>
   </section>
@@ -266,7 +489,7 @@ src="https://www.facebook.com/tr?id=1673835563964859&ev=PageView&noscript=1"
     <div class="speaker-info reveal delay-1">
       <span class="eyebrow">Спикер</span>
       <h2>Dinara Vais</h2>
-      <div class="role">Эксперт • Жеке бренд • Сату</div>
+      <div class="role">Наставник • Бизнес ментор • Жеке бренд • Сату</div>
       <p>
         Өз бизнесін нөлден масштабқа шығарған кәсіпкер. Жылдар бойы жиналған
         <b>нақты тәжірибе</b> және жүздеген кәсіпкерге көмектескен жүйе.
@@ -282,20 +505,129 @@ src="https://www.facebook.com/tr?id=1673835563964859&ev=PageView&noscript=1"
     </div>
   </section>
 
+
+  <section class="for-whom reveal">
+    <span class="section-num">/ Кімдерге арналған</span>
+    <h2 class="section-title">Бұл құрылтай <span class="yellow">саған</span> арналған, егер...</h2>
+    <div class="for-whom-grid">
+      <div class="for-whom-item"><span><b>Кәсіпкерлерге</b> — команда басқару, сату, стратегия құру дағдыларын меңгеруді қалайтын</span></div>
+      <div class="for-whom-item"><span><b>Жеке брендін</b> дамытқысы келетіндерге</span></div>
+      <div class="for-whom-item"><span><b>Эксперттілігін</b> табыс көзіне айналдырғысы келетіндерге</span></div>
+      <div class="for-whom-item"><span>Сатылымын <b>2–3X арттырып</b> масштабқа шыққысы келетіндерге</span></div>
+      <div class="for-whom-item"><span>Өзінің <b>курсын, мастер-класс, тренингін</b> жасағысы келетіндерге</span></div>
+      <div class="for-whom-item"><span><b>СММ, маркетинг, дизайн, таргет</b> саласындағы фрилансерлерге</span></div>
+      <div class="for-whom-item"><span><b>Психолог, мұғалім, репетитор, консультант</b> секілді эксперттерге</span></div>
+      <div class="for-whom-item"><span><b>Сұлулық салоны, дүкен, қызмет</b> жүргізіп жүрген кәсіпкерлерге</span></div>
+      <div class="for-whom-item"><span>Тікелей эфир, сторис, пост арқылы <b>сата алмай жүргендерге</b></span></div>
+      <div class="for-whom-item"><span>"Мен жақсы маманмын, бірақ <b>табыс аз</b>" деп жүргендерге</span></div>
+      <div class="for-whom-item"><span>Құндылығын <b>дұрыс көрсете алмай</b> жүргендерге</span></div>
+      <div class="for-whom-item"><span>Курсын, услугасын <b>қымбат чекке сатқысы</b> келетіндерге</span></div>
+    </div>
+  </section>
+
+  <section class="pricing reveal">
+    <span class="section-num">/ Тариф</span>
+    <h2 class="section-title">Қолжетімді <span class="yellow">баға</span> — таңдаңыз</h2>
+    <div class="price-cards">
+      <div class="price-card reveal delay-1">
+        <span class="tier">START тарифі</span>
+        <span class="price-old">7 000 тг</span>
+        <span class="price-now">5 000<span class="currency"> тг</span></span>
+        <span class="price-label">Оффлайн</span>
+        <div class="price-desc">Негізгі орын • Coffee break, су, блокнот, ручка</div>
+      </div>
+      <div class="price-card featured reveal delay-2">
+        <span class="tier">VIP тарифі</span>
+        <span class="price-old">15 000 тг</span>
+        <span class="price-now">10 000<span class="currency"> тг</span></span>
+        <span class="price-label">Оффлайн — VIP орын</span>
+        <div class="price-desc">VIP орын • Coffee break, су, блокнот, ручка • Ұтыс тарту байыс жүлдесіне қатысу</div>
+      </div>
+      <div class="price-card online reveal delay-3">
+        <span class="tier">Онлайн</span>
+        <span class="price-now">990<span class="currency"> тг</span></span>
+        <span class="price-label">Бүкіл Қазақстан</span>
+        <div class="price-desc">13 мамыр • Барлық қалалар үшін • Тікелей трансляция</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="schedule reveal">
+    <span class="section-num">/ Кесте</span>
+    <h2 class="section-title">Сізге жақын <span class="yellow">қала</span>ды таңдаңыз</h2>
+    <div class="city-cards">
+      <div class="city-card reveal delay-1">
+        <div class="city-name">Шымкент</div>
+        <div class="city-date">25 сәуір</div>
+        <div class="city-time">11:00 – 16:00 • Coffee break 13:00–14:00</div>
+      </div>
+      <div class="city-card reveal delay-2">
+        <div class="city-name">Түркістан</div>
+        <div class="city-date">26 сәуір</div>
+        <div class="city-time">11:00 – 16:00 • Coffee break 13:00–14:00</div>
+      </div>
+      <div class="city-card reveal delay-3">
+        <div class="city-name">Қарағанды</div>
+        <div class="city-date">3 мамыр</div>
+        <div class="city-time">11:00 – 16:00 • Coffee break 13:00–14:00</div>
+        <div class="city-addr">Алалыкина 12/1, Терриконовая долина, 1 этаж, 103 кабинет</div>
+      </div>
+      <div class="city-card reveal delay-1">
+        <div class="city-name">Астана</div>
+        <div class="city-date">6 мамыр</div>
+        <div class="city-time">11:00 – 16:00 • Coffee break 13:00–14:00</div>
+        <div class="city-addr">Uztaz Coworking, Туран 59/3</div>
+      </div>
+      <div class="city-card reveal delay-2">
+        <div class="city-name">Алматы</div>
+        <div class="city-date">9 мамыр</div>
+        <div class="city-time">11:00 – 16:00 • Coffee break 13:00–14:00</div>
+      </div>
+      <div class="city-card online-card reveal delay-3">
+        <div class="city-name">Онлайн</div>
+        <div class="city-date">13 мамыр</div>
+        <div class="city-time">Бүкіл Қазақстан • 990 тг</div>
+        <div class="city-addr">Барлық қалалар үшін тікелей трансляция</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="includes reveal">
+    <span class="section-num">/ Сізді күтеді</span>
+    <h2 class="section-title">Келгенде <span class="yellow">не аласыз</span></h2>
+    <div class="includes-grid">
+      <div>
+        <ul class="includes-list">
+          <li><b>Coffee break</b> — демалыс кезінде кофе мен сусын</li>
+          <li><b>Су</b> — бүкіл күн ішінде</li>
+          <li><b>Жеке блокнот</b> — ерекше дизайнмен</li>
+          <li><b>Ручка</b> — конспект жазуға</li>
+          <li><b>Дресс-код:</b> ұлттық нақыштағы қазақы киім</li>
+        </ul>
+      </div>
+      <div>
+        <div class="prize-box">
+          <div class="prize-val">1 500 000 тг</div>
+          <div class="prize-desc">Байыс — Қазақша Блог Құрылтайға келіп,<br><b>2 айлық топтық менторлықты ұтып ал!</b><br><br>DinarVais — Бизнес ментор</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="final">
     <div class="final-inner">
-      <h2 class="reveal">Орныңды <span class="gold">қазір</span> брондап қой</h2>
+      <h2 class="reveal">Биылдан қалмай Блог бастап,<br>табысқа <span class="yellow">шық!</span></h2>
       <p class="reveal delay-1">
-        Орын саны шектеулі. Тіркелу үшін WhatsApp чатқа қосыл —
-        тренингтің нақты күні, уақыты мен барлық ақпарат сонда жарияланады.
+        Орын саны <b>шектеулі.</b> Тіркелу немесе төлем жасау үшін:<br>
+        📞 <b>+7 775 323 0024</b> &nbsp;|&nbsp; Instagram: <b>@dinar_vais</b>
       </p>
-      <a class="btn reveal delay-2" href="https://chat.whatsapp.com/L3kqlAZzFC5CVhDFMDnANa?mode=gi_t" target="_blank" rel="noopener">WhatsApp чатқа қосылу</a>
+      <a class="btn reveal delay-2" href="https://wa.me/77753230024" target="_blank" rel="noopener">Тіркелу — WhatsApp</a>
       <div class="spots reveal delay-3">Орын <b>шектеулі</b></div>
     </div>
   </section>
 
   <footer>
-    © 2026 <b>DINARA VAIS</b> • Сатудың құпия стратегиясы
+    © 2026 <b>DINARA VAIS</b> • Қазақша Блог Құрылтай | Блог · Бизнес · Сату стратегиясы
   </footer>
 
 </div>
